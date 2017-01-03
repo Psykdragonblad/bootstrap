@@ -1,0 +1,190 @@
+ .sub-menu > span {
+            transition: all .3s ease
+        }
+        
+        .sub-menu.collapsed > span {
+            transform: rotate(180deg);
+        }
+        
+        a {
+            color: floralwhite !important;
+            border-radius: 5px;
+            margin-top: 2px;
+            font-weight: bold;
+        }
+        
+        .navbar-default .navbar-nav>li>a {
+            color: floralwhite !important;
+            border-radius: 5px;
+            margin-top: 2px;
+        }
+        
+        ul > li > a:hover {
+            background-color: darkslategrey !important
+        }
+        
+        .pagination-sm > li > a:hover {
+            background-color: #337ab7 !important
+        }
+        
+        .pagination > li > a {
+            background-color: lightgray;
+        }
+       
+        
+        .pagination > li > a:active {
+            background-color: darkgray !important;
+        }
+        
+        .pagination > li > a:link {
+            background-color: black !important;
+        }
+        
+        .navbar {
+            margin-bottom: 0px
+        }
+        
+        .navbar-default {
+            background-color: transparent;
+            border-color: transparent;
+            color: black;
+        }
+        
+        .painel {
+            max-width: 80%;
+            margin: auto;
+            margin-top: 3%
+        }
+        
+        @media (min-width: 768px) {
+            .navbar-nav {
+                height: 20%
+            }
+        }
+        
+        .panel-heading {
+            font-weight: bold;
+        }
+        
+        th {
+            color: gray;
+        }
+        
+        @media only screen and (max-width: 320px) {
+            table {
+                font-size: 60%;
+            }
+            .novo {
+                font-size: 60%;
+                margin-bottom: 3% !important;
+            }
+            .panel-heading {
+                font-size: 11px;
+            }
+            .painel {
+                max-width: 60%;
+            }
+            .navbar {
+                min-height: 0
+            }
+            .glyphicon-trash {
+                margin-right: 15%;
+            }
+            .panel-body {
+                padding-top: 8px;
+            }
+        }
+/*        
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+           
+        }
+        
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+           
+        }
+        
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+           
+        }
+        
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+          
+        }
+        
+        @media only screen and (max-device-width: 640px),
+        only screen and (max-device-width: 667px),
+        only screen and (max-width: 480px) {
+         
+        }
+        
+        @media only screen and (max-device-width: 640px),
+        only screen and (max-device-width: 667px),
+        only screen and (max-width: 480px) and (orientation: portrait) {
+           
+        }
+        
+        @media only screen and (max-device-width: 640px),
+        only screen and (max-device-width: 667px),
+        only screen and (max-width: 480px) and (orientation: landscape) {
+           
+        }*/
+        
+        .novo {
+            float: right;
+            margin-bottom: 1%;
+        }
+        
+        .mode {
+            float: right;
+            margin-right: 2%;
+        }
+        
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .form-modal {
+            margin-bottom: 0;
+        }
+        
+        .painel-modal {
+            margin-bottom: 0
+        }
+        
+        .input-group {
+            color: gray;
+        }
+        
+        .table-responsive {
+            overflow-x: initial
+        }
+        
+        .glyphicon-trash {
+            color: red;
+            margin-right: 12px;
+        }
+        
+        .glyphicon-pencil {
+            color: blue;
+        }
+        
+        .btn-success-modal {
+            width: 83px;
+        }
+        
+        .table>thead:first-child>tr:first-child>th {
+            border: 0px !important;
+        }
+        
+        table.dataTable.no-footer {
+            border: 0px !important;
+        }
+        
+        .acao {
+            width: 65px
+        }
+        
+        .table > tbody > tr > td {
+            padding-bottom: 2px;
+            padding-top: 5px
+        }      
