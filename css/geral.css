@@ -35,11 +35,7 @@
         .pagination > li > a:active {
             background-color: darkgray !important;
         }
-        
-        .pagination > li > a:link {
-            background-color: black !important;
-        }
-        
+
         .navbar {
             margin-bottom: 0px
         }
@@ -188,3 +184,17 @@
             padding-bottom: 2px;
             padding-top: 5px
         }      
+        .modal-header{
+            background-color: #dff0d8;
+            border-radius: 5px;
+            color:#3c763d;
+        }
+        .pagination-sm > li > a{
+            border-radius: 5px !important;
+        }
+        .panel-heading > a {
+            color: #3c763d !important;
+        }
+        tbody{
+            border-bottom: 1px solid lightgray;
+        }
